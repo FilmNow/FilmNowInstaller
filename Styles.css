@@ -1,0 +1,43 @@
+.app-download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.title {
+    font-family: 'Lalezar', cursive; /* Add Lalezar font */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.app-download-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffc107; /* Change background color to yellow */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-download-link:hover {
+    transform: translateY(-5px);
+}
+
+.app-download-icon {
+    font-size: 4rem;
+}
+
+.app-download-title {
+    font-family: 'Lalezar', cursive; /* Add Lalezar font */
+    margin-bottom: 0.5rem;
+}
+
+.app-download-subtitle {
+    font-family: 'Lalezar', cursive; /* Add Lalezar font */
+    margin-top: 0.5rem;
+}
